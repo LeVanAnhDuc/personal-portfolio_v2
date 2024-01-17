@@ -1,0 +1,9 @@
+{
+    "skills": "SKILLS",
+    "mySkills": "My Skills",
+    "workExperience": "Work Experience",
+    "workExperienceDesciption": {
+        "UPTECH": "Technology solutions company UPTECH",
+        "AppsCyclone": "Apps Cyclone Technology JSC"
+    }
+}

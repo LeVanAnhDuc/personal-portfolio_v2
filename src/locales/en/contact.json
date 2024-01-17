@@ -1,0 +1,19 @@
+{
+    "form": {
+        "name": "Name",
+        "namePlaceholder": "Enter Name",
+        "emailPlaceholder": "Enter your email",
+        "phone": "Phone",
+        "phonePlaceholder": "Enter your phone number",
+        "gender": "Gender",
+        "genderPlaceholder": "Select your gender",
+        "FacebookURLPlaceholder": "Enter your facebook URL",
+        "note": "Note"
+    },
+    "genderOptions": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+    },
+    "sendMessage": "Send message"
+}

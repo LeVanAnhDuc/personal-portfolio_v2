@@ -1,0 +1,37 @@
+{
+    "projects": "THÀNH TÍCH",
+    "desciptionProjects": "Những dự án của tôi",
+    "nav": {
+        "description": "Mô tả",
+        "role": "Vai trò",
+        "technology": "Công nghệ"
+    },
+
+    "DuckFashionWebsite": {
+        "title": "Web thời trang Duck",
+        "description": "Giao diện của user và guess. Web mục đích là bán đồ. Chức năng đăng nhập, đăng kí, đăng xuất, quên mật khẩu, quản lí tài khoản, địa chỉ, đơn hàng, lọc, tìm kiếm, thanh toán, giỏ hàng,...",
+        "role": "Lập trình viên front-end (nhóm 2 người)"
+    },
+
+    "DuckFashionWebsiteAdmin": {
+        "title": "Web admin thời trang Duck",
+        "description": "Giao diện của admin. Web mục đích là quản lí khách hàng, đơn hàng, sản phẩm, loại hàng, doanh thu, thống kê.",
+        "role": "Lập trình viên front-end (nhóm 2 người)"
+    },
+
+    "StellarHotelWebsite": {
+        "title": "Web khách sạn Stellar",
+        "description": "Giao diện của user và guess. Web mục đích là đặt phòng. Chức năng đăng nhập, đăng kí, đăng xuất, quên mật khẩu, quản lí tài khoản, đơn hàng, lọc, tìm kiếm, thanh toán...",
+        "role": "Lập trình viên front-end (nhóm 3 người)"
+    },
+    "StellarHotelWebsiteAdmin": {
+        "title": "Web admin khách sạn Stellar",
+        "description": "Giao diện của admin. Web mục đích là quản lý khách hàng, đơn đặt hàng, phòng, loại phòng, doanh thu và số liệu thống kê.",
+        "role": "Lập trình viên front-end (nhóm 3 người)"
+    },
+    "websiteIntroducingMyself": {
+        "title": "Trang web giới thiệu bản thân",
+        "description": "Thông tin cơ bản về bản thân và các dự án đã hoàn thành",
+        "role": "Cá nhân"
+    }
+}

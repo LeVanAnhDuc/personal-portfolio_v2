@@ -1,0 +1,19 @@
+{
+    "form": {
+        "name": "Họ và tên",
+        "namePlaceholder": "Nhập Họ và tên",
+        "emailPlaceholder": "Nhập Email của bạn",
+        "phone": "Số điện thoại",
+        "phonePlaceholder": "Nhập sô điện thoại của bạn",
+        "gender": "Giới tính",
+        "genderPlaceholder": "Chọn giới tính của bạn",
+        "FacebookURLPlaceholder": "Nhập facebook URL của bạn",
+        "note": "Ghi chú"
+    },
+    "genderOptions": {
+        "male": "Nam",
+        "female": "Nữ",
+        "other": "Khác"
+    },
+    "sendMessage": "Gửi tin nhắn"
+}

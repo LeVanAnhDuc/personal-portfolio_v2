@@ -1,0 +1,17 @@
+{
+    "myIntro": "GIỚI THIỆU CỦA TÔI",
+    "aboutMe": "Về tôi",
+    "desciption": "Tôi hiện đang theo học chuyên ngành Công nghệ phần mềm tại Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh. Quê tôi ở Dương Thủy, Lệ Thủy, tỉnh Quảng Bình, Việt Nam.",
+    "name": "Họ và tên",
+    "dateOfBirth": "Ngày sinh",
+    "address": "Địa chỉ",
+    "phone": "Số điện thoại",
+    "myHobbies": "Sở thích của tôi",
+    "listMyHobbies": {
+        "music": "Âm nhạc",
+        "travel": "Du lịch",
+        "movie": "Phim",
+        "sports": "Thể thao"
+    },
+    "contact": "Liên hệ"
+}

@@ -1,0 +1,37 @@
+{
+    "projects": "ACCOMPLISHMENTS",
+    "desciptionProjects": "My Projects",
+    "nav": {
+        "description": "Desciption",
+        "role": "Role",
+        "technology": "Technology"
+    },
+
+    "DuckFashionWebsite": {
+        "title": "Duck fashion website",
+        "description": "Interface of user and guess. The purpose of the website is to sell things. Functions to log in, register, log out, forgot password, manage accounts, addresses, orders, filter, search, payment, shopping cart,...",
+        "role": "Front-end dev ( group of 2 )"
+    },
+
+    "DuckFashionWebsiteAdmin": {
+        "title": "Duck fashion website admin",
+        "description": "Admin interface. The purpose of the website is to manage customers, orders, products, product categories, revenue, and statistics.",
+        "role": "Front-end dev ( group of 2 )"
+    },
+
+    "StellarHotelWebsite": {
+        "title": "Stellar hotel website",
+        "description": "Interface of user and guess. Web purpose is to book rooms. Functions to log in, register, log out, forgot password, manage accounts, orders, filter, search, pay...",
+        "role": "Front-end dev ( group of 3 )"
+    },
+    "StellarHotelWebsiteAdmin": {
+        "title": "Duck fashion website admin",
+        "description": "Admin interface. The purpose of the website is to manage customers, orders, rooms, room types, revenue, and statistics.",
+        "role": "Front-end dev ( group of 3 )"
+    },
+    "websiteIntroducingMyself": {
+        "title": "Website introducing myself",
+        "description": "Basic information about yourself and completed projects",
+        "role": "( person )"
+    }
+}
