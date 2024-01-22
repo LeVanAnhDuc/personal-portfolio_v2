@@ -11,7 +11,7 @@ import config from '../../config';
 
 const Section1 = () => {
     const nameUser = useSelector(selectnameUser);
-    const { t } = useTranslation(['home', 'about']);
+    const { t } = useTranslation('home');
 
     return (
         <section className="bg-primary-300/30 px-8 md:px-10 lg:px-20 xl:px-32">
