@@ -24,7 +24,6 @@ a {
     text-decoration: none;
 }
 
-/* scrollbar */
 html *::-webkit-scrollbar {
     border-radius: 0;
     width: 8px;
@@ -40,28 +39,6 @@ html *::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* custom tag name */
-h1 {
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%; /* 76.8px */
-}
-h2 {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%; /* 76.8px */
-}
-h3 {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%; /* 76.8px */
-}
-
-/* custom style */
-/* hover button */
 .hover-button {
     position: relative;
     overflow: hidden;
@@ -74,7 +51,7 @@ h3 {
     width: 0%;
     height: 2px;
     bottom: 0;
-    background-color: #65b741; 
+    background-color: #65b741;
     transition: 0.3s ease-in-out;
 }
 

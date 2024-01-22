@@ -2,10 +2,46 @@
     "banner": {
         "major": "Kỹ sư phần mềm",
         "hello": "Xin chào",
-        "nameSlide1": "tôi tên là",
+        "nameSlide1": "tôi là",
+        "infoMajor": "Tôi là nhà phát triển full-stack (ReactJS, NodeJS). Tuy nhiên, thế mạnh của tôi  front-end. Ngoài ra, tôi có kiến ​​thức về Vue3, Java và Golang.",
         "project": "Dự án",
         "hi": "Chào",
         "nameSlide2": "Tôi là",
-        "typeWord": "Lập trình viên Front-end, Back-end"
+        "typeWord": "Lập trình viên FullStack"
+    },
+    "about": {
+        "myIntro": "GIỚI THIỆU CỦA TÔI",
+        "aboutMe": "Về tôi",
+        "desciption": "Tôi hiện đang theo học chuyên ngành Công nghệ phần mềm tại Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh. Quê tôi ở Dương Thủy, Lệ Thủy, tỉnh Quảng Bình, Việt Nam.",
+        "name": "Họ và tên",
+        "dateOfBirth": "Ngày sinh",
+        "address": "Địa chỉ",
+        "phone": "Số điện thoại",
+        "myHobbies": "Sở thích của tôi",
+        "listMyHobbies": {
+            "music": "Âm nhạc",
+            "travel": "Du lịch",
+            "movie": "Phim",
+            "sports": "Thể thao"
+        },
+        "contact": "Liên hệ",
+        "followMe": "Theo dõi tôi"
+    },
+    "experience": {
+        "myExperience": "Kinh nghiệm",
+        "descriptionExperience": "Tôi đã có niềm vui được làm việc với các công ty thuộc nhiều lĩnh vực khác nhau. Tôi luôn quan tâm đến những cuộc phiêu lưu mới, thú vị và đầy thách thức.",
+        "workAppCyclone": "Tôi làm thực tập front-end (React).",
+        "technologies": "Công nghệ tôi được tiếp cận là:",
+        "projects": "Những dự án tôi đã làm tại công ty",
+        "workUptech": "Tôi làm thực tập full-stack (React, Node, MongoDB).",
+        "downloadCV": "Tải Hồ sơ của tôi",
+        "nameCompany": {
+            "UPTECH": "Công ty giải pháp công nghệ UPTECH",
+            "AppsCyclone": "Công ty cổ phần công nghệ Apps Cyclone "
+        }
+    },
+    "project": {
+        "myProjects": "Dự án của tôi",
+        "seeMore": "Xem thêm"
     }
 }

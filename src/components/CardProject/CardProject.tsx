@@ -1,10 +1,9 @@
 import React from 'react';
 
-import { GithubOutlined, EllipsisOutlined, LinkOutlined } from '@ant-design/icons';
+import { GithubOutlined, LinkOutlined } from '@ant-design/icons';
 import { Card } from 'antd';
 import { useTranslation } from 'react-i18next';
-
-const { Meta } = Card;
+import { motion } from 'framer-motion';
 
 interface Iprops {
     linkImage: string;
@@ -20,43 +19,78 @@ const CardProject = (props: Iprops) => {
     const { linkGithub, linkImage, linkProject, title, description, role, technical } = props;
 
     const { t } = useTranslation('project');
+    const [activeTabKey, setActiveTabKey] = React.useState<string>('title');
 
     const handleActionLinkOnline = () => {
-        window.open(linkProject, '_blank');
+        linkProject && window.open(linkProject, '_blank');
     };
     const handleActionLinkGithub = () => {
         window.open(linkGithub, '_blank');
     };
 
-    const [activeTabKey2, setActiveTabKey2] = React.useState<string>('title');
-    const onTab2Change = (key: string) => {
-        setActiveTabKey2(key);
+    const onTabChange = (key: string) => {
+        setActiveTabKey(key);
     };
     const contentListNoTitle: Record<string, React.ReactNode> = {
-        role: <Meta description={role} className="h-36 overflow-hidden text-ellipsis" />,
-        technical: <Meta description={technical} className="h-36 overflow-hidden text-ellipsis" />,
-        title: <Meta title={title} description={description} className="h-36 overflow-hidden text-ellipsis" />,
+        role: (
+            <div className="h-56 overflow-hidden text-ellipsis grid gap-3 ">
+                <div className="text-base">{role}</div>
+            </div>
+        ),
+        technical: (
+            <div className="h-56 overflow-hidden text-ellipsis grid gap-3 ">
+                <div className="text-base">{technical}</div>
+            </div>
+        ),
+        title: (
+            <div className="h-56 overflow-hidden text-ellipsis flex flex-col gap-3 ">
+                <div className="text-primary-800 text-lg font-bold">{title}</div>
+                <div className="text-base">{description}</div>
+            </div>
+        ),
     };
 
     return (
         <Card
-            hoverable
+            className="shadow-lg transition grid grid-cols-2 hover:scale-[1.02]"
             title={
                 <img
                     alt="image not found"
                     src={linkImage}
-                    className="object-cover h-44 "
+                    className="object-cover h-44 cursor-pointer"
                     onClick={handleActionLinkGithub}
                 />
             }
-            // cover={<Image alt="image not found" src={linkImage} className="object-cover h-44" />}
             actions={[
-                <LinkOutlined key="LinkOutlined" onClick={handleActionLinkOnline} />,
-                <GithubOutlined key="edit" onClick={handleActionLinkGithub} />,
-                <EllipsisOutlined key="ellipsis" />,
+                <motion.div
+                    className={`${
+                        linkProject === undefined
+                            ? 'hover:!text-black/40 cursor-default text-black/40'
+                            : 'hover:!text-primary-800'
+                    } flex gap-2 place-content-center font-bold text-base text-black `}
+                    onClick={handleActionLinkOnline}
+                    whileHover={{
+                        scale: linkProject && 1.05,
+                    }}
+                    transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                    whileTap={{ scale: linkProject && 0.95 }}
+                >
+                    UI
+                    <LinkOutlined />
+                </motion.div>,
+                <motion.div
+                    className="flex gap-2 place-content-center font-bold text-base text-black hover:!text-primary-800"
+                    onClick={handleActionLinkGithub}
+                    whileHover={{
+                        scale: 1.05,
+                    }}
+                    transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                    whileTap={{ scale: 0.95 }}
+                >
+                    Code
+                    <GithubOutlined />
+                </motion.div>,
             ]}
-            className="hover:scale-105 transition"
-            //
             tabList={[
                 {
                     key: 'title',
@@ -71,13 +105,10 @@ const CardProject = (props: Iprops) => {
                     label: t('nav.technology'),
                 },
             ]}
-            activeTabKey={activeTabKey2}
-            onTabChange={onTab2Change}
-            tabProps={{
-                size: 'small',
-            }}
+            activeTabKey={activeTabKey}
+            onTabChange={onTabChange}
         >
-            {contentListNoTitle[activeTabKey2]}
+            {contentListNoTitle[activeTabKey]}
         </Card>
     );
 };

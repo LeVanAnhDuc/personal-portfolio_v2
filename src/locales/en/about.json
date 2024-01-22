@@ -1,7 +1,7 @@
 {
     "myIntro": "MY INTRO",
     "aboutMe": "About me",
-    "desciption": "I am currently pursuing a major in Software Engineering at the University of Technology in Ho Chi Minh City. My hometown is in Duong Thuy, Le Thuy, Quang Binh province, Vietnam.",
+    "desciption": "I am currently pursuing a major in Software Engineering at the HCMC University of Technology and Education. My hometown is in Duong Thuy, Le Thuy, Quang Binh province, Vietnam.",
     "name": "Name",
     "dateOfBirth": "Date of birth",
     "address": "Address",
@@ -13,5 +13,6 @@
         "movie": "Movie",
         "sports": "Sports"
     },
-    "contact": "Contact"
+    "contact": "Contact",
+    "followMe": "Follow Me"
 }

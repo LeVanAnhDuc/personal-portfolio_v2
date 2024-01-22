@@ -1,5 +1,5 @@
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import { ReactNode } from 'react';
 
 interface DefaultLayoutProps {
@@ -8,11 +8,11 @@ interface DefaultLayoutProps {
 
 function DefaultLayout({ children }: DefaultLayoutProps) {
     return (
-        <div className="bg-secondary-100 px-8 md:px-10 lg:px-20 xl:px-32">
+        <>
             <Header />
-            <div className="min-h-screen py-10">{children}</div>
+            <div className="min-h-screen overflow-hidden">{children}</div>
             <Footer />
-        </div>
+        </>
     );
 }
 

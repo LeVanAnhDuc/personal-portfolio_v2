@@ -3,8 +3,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import HOME_EN from '../locales/en/home.json';
 import HOME_VI from '../locales/vi/home.json';
-import ABOUT_EN from '../locales/en/about.json';
-import ABOUT_VI from '../locales/vi/about.json';
+import FOOTER_EN from '../locales/en/footer.json';
+import FOOTER_VI from '../locales/vi/footer.json';
 import CONTACT_EN from '../locales/en/contact.json';
 import CONTACT_VI from '../locales/vi/contact.json';
 import SERVICE_EN from '../locales/en/service.json';
@@ -19,7 +19,7 @@ import HEADER_VI from '../locales/vi/header.json';
 export const resources = {
     en: {
         home: HOME_EN,
-        about: ABOUT_EN,
+        footer: FOOTER_EN,
         contact: CONTACT_EN,
         service: SERVICE_EN,
         skill: SKILLS_EN,
@@ -28,7 +28,7 @@ export const resources = {
     },
     vi: {
         home: HOME_VI,
-        about: ABOUT_VI,
+        footer: FOOTER_VI,
         contact: CONTACT_VI,
         service: SERVICE_VI,
         skill: SKILLS_VI,
@@ -43,7 +43,7 @@ i18n.use(initReactI18next).init({
     resources,
     lng: 'en',
     // namespace refer translation defaut
-    ns: ['home', 'about', 'contact', 'service', 'skill', 'project', 'header'],
+    ns: ['home', 'footer', 'contact', 'service', 'skill', 'project', 'header'],
     // default namespace
     defaultNS,
     fallbackLng: 'en',

@@ -2,10 +2,46 @@
     "banner": {
         "major": "SOFTWARE ENGINEER",
         "hello": "Hello",
-        "nameSlide1": "my name is",
+        "nameSlide1": "I'm",
+        "infoMajor": "I am a full-stack developer (ReactJS, NodeJS). However, my strength is in front-end development. In addition, I have knowledge of Vue3, Java, and Golang.",
         "project": "Projects",
         "hi": "Hi",
         "nameSlide2": "This is",
-        "typeWord": "Front-end, Back-end Developer"
+        "typeWord": "FullStack Developer"
+    },
+    "about": {
+        "myIntro": "MY INTRO",
+        "aboutMe": "About me",
+        "desciption": "I am currently pursuing a major in Software Engineering at the HCMC University of Technology and Education. My hometown is in Duong Thuy, Le Thuy, Quang Binh province, Vietnam.",
+        "name": "Name",
+        "dateOfBirth": "Date of birth",
+        "address": "Address",
+        "phone": "Phone",
+        "myHobbies": "My hobbies",
+        "listMyHobbies": {
+            "music": "Music",
+            "travel": "Travel",
+            "movie": "Movie",
+            "sports": "Sports"
+        },
+        "contact": "Contact",
+        "followMe": "Follow Me"
+    },
+    "experience": {
+        "myExperience": "My Experience",
+        "descriptionExperience": "I have had the pleasure to work with companies across a variety of industries. I'm always interested in new, exciting and challenging adventures.",
+        "workAppCyclone": "I work as a front-end (React) intern.",
+        "technologies": "The technologies I have been exposed to include:",
+        "projects": "Projects I have worked on in the company",
+        "workUptech": "I work as a full-stack (React, Node, MongoDB) intern.",
+        "downloadCV": "Download CV",
+        "nameCompany": {
+            "UPTECH": "Technology solutions company UPTECH",
+            "AppsCyclone": "Apps Cyclone Technology JSC"
+        }
+    },
+    "project": {
+        "myProjects": "My Projects",
+        "seeMore": "See more"
     }
 }

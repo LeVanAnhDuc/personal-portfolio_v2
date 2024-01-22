@@ -13,10 +13,9 @@ const Header = () => {
         setOpen(newOpen);
     };
 
-    // handle scroll to fix header
     const [scroll, setScroll] = useState(false);
     const listenScrollEvent = () => {
-        window.scrollY > 50 ? setScroll(true) : setScroll(false);
+        window.scrollY > 10 ? setScroll(true) : setScroll(false);
     };
 
     useEffect(() => {
@@ -26,7 +25,6 @@ const Header = () => {
         };
     }, []);
 
-    // transilate
     const { i18n } = useTranslation();
     const { t } = useTranslation('header');
     const [language, setLanguage] = useState<string>('English');
@@ -40,33 +38,16 @@ const Header = () => {
         <div
             className={`${
                 scroll
-                    ? 'bg-white  shadow fixed ease-in w-full left-0 px-8 md:px-10 lg:px-20  xl:px-32'
+                    ? 'bg-white  shadow fixed ease-in w-full left-0 px-8 md:px-10 lg:px-20 xl:px-32'
                     : 'bg-transparent '
             } 
-                 py-4 flex justify-between items-center z-50`}
+                 py-4 flex justify-between items-center z-50 px-8 md:px-10 lg:px-20 xl:px-32`}
         >
             <Link to={config.Routes.home} className="text-xl font-bold hover:!text-primary-100 transition">
                 Lê Văn Anh Đức
             </Link>
             <div className="flex gap-5">
                 <nav className="lg:flex items-start gap-4 hidden !shadow-none">
-                    <NavLink
-                        to={config.Routes.about}
-                        className={({ isActive }) => (isActive ? 'text-blue-700 font-bold' : '')}
-                    >
-                        {({ isActive }) => (
-                            <Button
-                                type="link"
-                                className={`${
-                                    isActive
-                                        ? '!text-primary-100 !border-0 !border-b-2 border-primary-100 rounded-none'
-                                        : 'hover-button !border-0 hover:!text-primary-100 hover:rounded-none !text-black '
-                                } flex items-center p-5 uppercase text-sm font-bold !shadow-transparent transition`}
-                            >
-                                {t('about')}
-                            </Button>
-                        )}
-                    </NavLink>
                     <NavLink to={config.Routes.contact}>
                         {({ isActive }) => (
                             <Button
@@ -119,23 +100,6 @@ const Header = () => {
                 <Popover
                     content={
                         <div className="w-screen px-14 py-3 z-50 block lg:hidden">
-                            <NavLink
-                                to={config.Routes.about}
-                                className={({ isActive }) => (isActive ? 'text-blue-700 font-bold' : '')}
-                            >
-                                {({ isActive }) => (
-                                    <Button
-                                        type="link"
-                                        className={`${
-                                            isActive
-                                                ? '!text-primary-100 !border-0 !border-b-2 border-primary-100 rounded-none'
-                                                : 'hover-button !border-0 hover:!text-primary-100 hover:rounded-none !text-black '
-                                        } flex items-center p-5 uppercase text-sm font-bold !shadow-transparent transition`}
-                                    >
-                                        {t('about')}
-                                    </Button>
-                                )}
-                            </NavLink>
                             <NavLink to={config.Routes.contact}>
                                 {({ isActive }) => (
                                     <Button

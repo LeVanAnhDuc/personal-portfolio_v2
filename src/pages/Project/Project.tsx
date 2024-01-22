@@ -1,10 +1,8 @@
-import CardProject from '../../components/CardProject/CardProject';
-import user_duck from '../../assets/img/user_duck.png';
-import admin_duck from '../../assets/img/admin_duck.png';
-import user_stellar from '../../assets/img/user_stellar.png';
-import admin_stellar from '../../assets/img/admin_stellar.png';
-import personal_portfolio from '../../assets/img/personal-portfolio.png';
 import { useTranslation } from 'react-i18next';
+
+import { imgProject } from '../../assets/img/projects';
+import CardProject from '../../components/CardProject/CardProject';
+
 const Project = () => {
     const { t } = useTranslation('project');
     return (
@@ -15,7 +13,7 @@ const Project = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
                 <CardProject
                     linkGithub="https://github.com/LeVanAnhDuc/fe-user-TLCN"
-                    linkImage={user_duck}
+                    linkImage={imgProject.user_duck}
                     linkProject="https://fe-user-tlcn-duckshop.vercel.app/"
                     role={t('DuckFashionWebsite.role')}
                     technical="React, TypeScript, MUI, Tailwindcss, React-hook-form, Redux Toolkit,..."
@@ -24,7 +22,7 @@ const Project = () => {
                 />
                 <CardProject
                     linkGithub="https://github.com/LeVanAnhDuc/fe-admin-TLCN"
-                    linkImage={admin_duck}
+                    linkImage={imgProject.admin_duck}
                     linkProject="https://fe-admin-tlcn.vercel.app/"
                     role={t('DuckFashionWebsiteAdmin.role')}
                     technical="React, TypeScript, MUI, Tailwindcss, React-hook-form,..."
@@ -33,7 +31,7 @@ const Project = () => {
                 />
                 <CardProject
                     linkGithub="https://github.com/LeVanAnhDuc/fe-stellar"
-                    linkImage={user_stellar}
+                    linkImage={imgProject.user_stellar}
                     linkProject="https://fe-stellar.vercel.app/"
                     role={t('StellarHotelWebsite.role')}
                     technical="React, React Bootstrap, Redux/toolkit, Scss ..."
@@ -42,7 +40,7 @@ const Project = () => {
                 />
                 <CardProject
                     linkGithub="https://github.com/LeVanAnhDuc/fe-stellar-admin"
-                    linkImage={admin_stellar}
+                    linkImage={imgProject.admin_stellar}
                     linkProject="https://fe-stellar-admin.vercel.app/"
                     role={t('StellarHotelWebsiteAdmin.role')}
                     technical="React, React Bootstrap, Redux/toolkit, Scss ..."
@@ -51,14 +49,13 @@ const Project = () => {
                 />
                 <CardProject
                     linkGithub="https://github.com/LeVanAnhDuc/Personal_Portfolio"
-                    linkImage={personal_portfolio}
+                    linkImage={imgProject.personal_portfolio}
                     linkProject="https://personal-portfolio-ten-red.vercel.app/"
                     role={t('websiteIntroducingMyself.role')}
                     technical="Next, TypeScript, Antd, Tailwindcss..."
                     title={t('websiteIntroducingMyself.title')}
                     description={t('websiteIntroducingMyself.description')}
                 />
-               
             </div>
         </main>
     );
