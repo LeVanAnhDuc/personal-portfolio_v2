@@ -1,4 +1,16 @@
 {
+    "yub": {
+        "nameRequired": "Họ và tên không được trống",
+        "emailRequired": "Email không được trống",
+        "emailFormat": "Định dạng email sai",
+        "phoneRequired": "Số điện thoại không được trống",
+        "phone10": "Số điện thoại phải lớn hơn 10 số",
+        "phone11": "Số điện thoại phải nhỏ hơn 11 số",
+        "phoneFormat": "Định dạng số điện thoại sai",
+        "genderRequired": "Giới tính không được trống",
+        "facebookURLRequired": "FacebookURL không được trống",
+        "facebookURLFormat": "Định dạng facebookURLFormat sai"
+    },
     "form": {
         "name": "Họ và tên",
         "namePlaceholder": "Nhập Họ và tên",

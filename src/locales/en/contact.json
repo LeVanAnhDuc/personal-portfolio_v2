@@ -1,4 +1,16 @@
 {
+    "yub": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailFormat": "Invalid email format",
+        "phoneRequired": "Phone is required",
+        "phone10": "Phone must be at least 10 digits",
+        "phone11": "Phone must be at most 11 digits",
+        "phoneFormat": "Invalid phone format",
+        "genderRequired": "Gender is required",
+        "facebookURLRequired": "FacebookURL is required",
+        "facebookURLFormat": "Invalid facebookURLFormat format"
+    },
     "form": {
         "name": "Name",
         "namePlaceholder": "Enter Name",
