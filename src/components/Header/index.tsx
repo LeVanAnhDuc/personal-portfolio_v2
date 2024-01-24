@@ -6,14 +6,17 @@ import { MenuOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
-    // popover
+    const { i18n } = useTranslation();
+    const { t } = useTranslation('header');
+
+    const [language, setLanguage] = useState<string>('English');
     const [open, setOpen] = useState(false);
+    const [scroll, setScroll] = useState(false);
 
     const handleOpenChange = (newOpen: boolean) => {
         setOpen(newOpen);
     };
 
-    const [scroll, setScroll] = useState(false);
     const listenScrollEvent = () => {
         window.scrollY > 10 ? setScroll(true) : setScroll(false);
     };
@@ -24,10 +27,6 @@ const Header = () => {
             window.removeEventListener('scroll', listenScrollEvent);
         };
     }, []);
-
-    const { i18n } = useTranslation();
-    const { t } = useTranslation('header');
-    const [language, setLanguage] = useState<string>('English');
 
     const handleGetLanguage = (value: string) => {
         setLanguage(value);
@@ -62,20 +61,7 @@ const Header = () => {
                             </Button>
                         )}
                     </NavLink>
-                    <NavLink to={config.Routes.services}>
-                        {({ isActive }) => (
-                            <Button
-                                type="link"
-                                className={`${
-                                    isActive
-                                        ? '!text-primary-100 !border-0 !border-b-2 border-primary-100 rounded-none'
-                                        : 'hover-button !border-0 hover:!text-primary-100 hover:rounded-none !text-black '
-                                } flex items-center p-5 uppercase text-sm font-bold !shadow-transparent transition`}
-                            >
-                                {t('services')}
-                            </Button>
-                        )}
-                    </NavLink>
+
                     <NavLink to={config.Routes.skills}>
                         {({ isActive }) => (
                             <Button
@@ -114,20 +100,7 @@ const Header = () => {
                                     </Button>
                                 )}
                             </NavLink>
-                            <NavLink to={config.Routes.services}>
-                                {({ isActive }) => (
-                                    <Button
-                                        type="link"
-                                        className={`${
-                                            isActive
-                                                ? '!text-primary-100 !border-0 !border-b-2 border-primary-100 rounded-none'
-                                                : 'hover-button !border-0 hover:!text-primary-100 hover:rounded-none !text-black '
-                                        } flex items-center p-5 uppercase text-sm font-bold !shadow-transparent transition`}
-                                    >
-                                        {t('services')}
-                                    </Button>
-                                )}
-                            </NavLink>
+
                             <NavLink to={config.Routes.skills}>
                                 {({ isActive }) => (
                                     <Button

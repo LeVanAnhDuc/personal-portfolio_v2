@@ -1,9 +1,14 @@
 {
-    "skills": "SKILLS",
     "mySkills": "My Skills",
+    "whyHire": "Why Hire Me For Your Next",
+    "project": "Project",
+    "descriptionHire": "I’m FullStack Developer. My passion is designing & solving problems through user experience and research.",
+    "technologies": "Here are a few technologies I've been working with recently",
+    "downloadCV": "Download CV",
+    "webDescription": "Create a modern user interface website design",
+    "mobileDescription": "Design a mobile user interface with unique and modern ideas",
+    "figmaDescription": "Create a Figma interface design suitable for both website and mobile, enhancing code efficiency with deep and modern knowledge",
+    "followMeOn": "Follow me on",
     "workExperience": "Work Experience",
-    "workExperienceDesciption": {
-        "UPTECH": "Technology solutions company UPTECH",
-        "AppsCyclone": "Apps Cyclone Technology JSC"
-    }
+    "projectCompleted": "Project Completed"
 }

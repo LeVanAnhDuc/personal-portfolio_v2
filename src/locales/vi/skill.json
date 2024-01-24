@@ -1,9 +1,14 @@
 {
-    "skills": "KỸ NĂNG",
     "mySkills": "Kĩ năng của tôi",
+    "whyHire": "Tại sao thuê tôi cho",
+    "project": "dự án",
+    "descriptionHire": "Tôi là Nhà phát triển FullStack. Niềm đam mê của tôi là thiết kế và giải quyết vấn đề thông qua trải nghiệm và nghiên cứu của người dùng",
+    "technologies": "Dưới đây là một số công nghệ tôi đã làm việc gần đây",
+    "downloadCV": "TẢI CV của tôi",
+    "webDescription": "Tạo thiết kế website giao diện người dùng mang thiên hướng hiện đại",
+    "mobileDescription": "Tạo thiết kế giao diện di động người dùng với những ý tưởng độc đáo và hiện đại",
+    "figmaDescription": "Tạo thiết kế giao diện figma phù hợp cho cả website và di động giúp code hiệu quả hơn với những kiến thức chuyên sâu và hiện đại",
+    "followMeOn": "Theo dõi tôi trên",
     "workExperience": "Kinh nghiệm làm việc",
-    "workExperienceDesciption": {
-        "UPTECH": "Công ty giải pháp công nghệ UPTECH",
-        "AppsCyclone": "Công ty cổ phần công nghệ Apps Cyclone "
-    }
+    "projectCompleted": "Dự án đã hoàn thành"
 }
