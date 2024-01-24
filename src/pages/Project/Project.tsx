@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 import { imgProject } from '../../assets/img/projects';
-import CardProject from '../../components/CardProject/CardProject';
+import CardProject from '../../components/CardProject';
 
 const Project = () => {
     const { t } = useTranslation('project');

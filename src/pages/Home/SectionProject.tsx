@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 import AnimationTran from '../../components/AnimationTran';
-import CardProject from '../../components/CardProject/CardProject';
+import CardProject from '../../components/CardProject';
 import config from '../../config';
 import Button from '../../components/Button';
 import AnimationScale from '../../components/AnimationScale';
