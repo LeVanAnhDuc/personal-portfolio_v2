@@ -33,5 +33,16 @@
         "title": "Trang web giới thiệu bản thân",
         "description": "Thông tin cơ bản về bản thân và các dự án đã hoàn thành",
         "role": "Lập trình viên front-end (Cá nhân)"
+    },
+    "LeDucWebsite": {
+        "title": "LeDuc website",
+        "description": "Giao diện của user và guess. Web mục đích là bán đồ. Chức năng: sáng tối, chuyển đổi ngôn ngữ, đăng nhập, đăng kí, đăng xuất, địa chỉ, đơn hàng, lọc, tìm kiếm, thanh toán, giỏ hàng,...",
+        "role": "Lập trình viên front-end (Cá nhân)"
+    },
+
+    "LeDucWebsiteAdmin": {
+        "title": "LeDuc website admin",
+        "description": "Giao diện của admin. Web mục đích là quản lí sản phẩm, doanh thu, thống kê. Thêm chức năng như: sáng tối, chuyển đổi ngôn ngữ, đăng nhập",
+        "role": "Lập trình viên front-end (Cá nhân)"
     }
 }

@@ -33,5 +33,16 @@
         "title": "Website introducing myself",
         "description": "Basic information about yourself and completed projects",
         "role": "( person )"
+    },
+    "LeDucWebsite": {
+        "title": "LeDuc website",
+        "description": "Interface of user and guess. The purpose of the website is to sell things. Functions to dark mode, translate, log in, register, log out, address, orders, filter, search, payment, shopping cart,...",
+        "role": "Front-end dev ( person )"
+    },
+
+    "LeDucWebsiteAdmin": {
+        "title": "LeDuc website admin",
+        "description": "Admin interface. Functions to dark mode, translate. The purpose of the website is manage products, revenue, and statistics.",
+        "role": "Front-end dev ( person )"
     }
 }
