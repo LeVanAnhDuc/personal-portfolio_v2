@@ -102,7 +102,7 @@ const Header = () => {
                 <div className="flex lg:hidden text-2xl opacity-80 font-black" onClick={showDrawer}>
                     <MenuOutlined />
                 </div>
-                <Drawer title="Navigate" onClose={onCloseDrawer} open={openDrawer} width={'100%'}>
+                <Drawer title={t('navigate')} onClose={onCloseDrawer} open={openDrawer} width={'100%'}>
                     <div className="w-full py-3 px-10 flex flex-col lg:hidden gap-3">
                         <NavLink to={config.Routes.contact}>
                             {({ isActive }) => (
