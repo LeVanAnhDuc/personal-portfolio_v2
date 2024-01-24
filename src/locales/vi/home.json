@@ -43,5 +43,8 @@
     "project": {
         "myProjects": "Dự án của tôi",
         "seeMore": "Xem thêm"
+    },
+    "callMe": {
+        "callMe": "Liên hệ tôi"
     }
 }

@@ -1,6 +1,7 @@
 import Section1 from './Section1';
 import Section2 from './Section2';
 import SectionAboutMe from './SectionAboutMe';
+import SectionCallMe from './SectionCallMe';
 import SectionExperience from './SectionExperience';
 import SectionProject from './SectionProject';
 
@@ -12,6 +13,7 @@ const Home = () => {
             <SectionAboutMe />
             <SectionExperience />
             <SectionProject />
+            <SectionCallMe />
         </main>
     );
 };

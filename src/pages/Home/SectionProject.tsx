@@ -11,7 +11,7 @@ import { imgProject } from '../../assets/img/projects';
 const SectionProject = () => {
     const { t } = useTranslation(['project', 'home']);
     return (
-        <section className="pt-10 pb-16 px-8 md:px-10 lg:px-20 xl:px-32">
+        <section className="pt-10  px-8 md:px-10 lg:px-20 xl:px-32">
             <div className="flex place-content-between place-items-center mb-7">
                 <AnimationTran tranY={-100} delay={0.3} className="text-primary-800 text-4xl font-black">
                     {t('home:project.myProjects')}

@@ -43,5 +43,8 @@
     "project": {
         "myProjects": "My Projects",
         "seeMore": "See more"
+    },
+    "callMe": {
+        "callMe": "Call Me"
     }
 }
